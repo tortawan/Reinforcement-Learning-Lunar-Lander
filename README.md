@@ -1,6 +1,6 @@
 # DQN Agent for LunarLander-v2 using PyTorch
 
-(images/LunarLander.gif)
+[Alt text for the GIF](/images/LunarLander.gif)
 
 
 
