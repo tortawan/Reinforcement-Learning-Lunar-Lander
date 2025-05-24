@@ -1,6 +1,6 @@
 # DQN Agent for LunarLander-v2 using PyTorch
 
-!(/images/LunarLander.gif)
+![](/images/LunarLander.gif)
 
 
 
