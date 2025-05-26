@@ -53,13 +53,13 @@ The Deep Q-Network (DQN) algorithm is a cornerstone of modern reinforcement lear
     ```bash
     pip install -r requirements.txt
     ```
-    *(Ensure your `requirements.txt` is up-to-date and includes `gymnasium[box2d]`)*
+    
 
 
 
 ## 📊 Results & Performance
 
-*(This section is crucial! Fill it with your actual results.)*
+
 
 * **Training Environment:** `LunarLander-v3`
 * **Target Score for Solving:** The environment is typically considered solved if the agent achieves an average reward of `[e.g., +200]` over 100 consecutive episodes.
@@ -69,15 +69,9 @@ The Deep Q-Network (DQN) algorithm is a cornerstone of modern reinforcement lear
     * The environment was successfully solved after approximately `[Number, e.g., 1200]` training episodes.
 * **Best Score in a Single Episode:** `[Your Best Score]`
 * **Training Duration:** Approximately `[Time, e.g., 2 hours on CPU/GPU specs]`
-* **Key Hyperparameters Used:**
-    * Learning Rate (`LR`): `[e.g., 5e-4]`
-    * Batch Size: `[e.g., 64]`
-    * Replay Buffer Size: `[e.g., 1e5]`
-    * Discount Factor ($\gamma$): `[e.g., 0.99]`
-    * Target Network Update Frequency (`TAU` or `UPDATE_EVERY`): `[e.g., 1e-3 or 4 episodes]`
-    * Epsilon Decay Rate: `[e.g., 0.995]`
+
 * **Training Progress Plot:**
-    *(You can embed the training plot image here if you like, or link to it)*
+    
     `![Training Progress](path_to_your_training_plot.png)`
 
 ## 🔮 Future Improvements & Ideas
