@@ -55,26 +55,7 @@ The Deep Q-Network (DQN) algorithm is a cornerstone of modern reinforcement lear
     ```
     *(Ensure your `requirements.txt` is up-to-date and includes `gymnasium[box2d]`)*
 
-## ▶️ How to Run
 
-1.  **To Train the Agent:**
-    Execute the main script. You might have specific command-line arguments for training mode, number of episodes, etc.
-    ```bash
-    python Lunar_Lander.py --train 
-    # Or, if you have specific arguments:
-    # python Lunar_Lander.py --mode train --episodes 2000 --save_model_path lunar_lander_dqn.pth
-    ```
-    * *(Specify where your script saves the trained model, e.g., `lunar_lander_dqn.pth`)*
-    * *(Specify where training progress plots/logs are saved, e.g., `training_log.csv`, `progress.png`)*
-
-2.  **To Watch a Pre-trained Agent:**
-    Run the script in a mode that loads your saved model weights and renders the environment.
-    ```bash
-    python Lunar_Lander.py --test --model_path lunar_lander_dqn.pth
-    # Or, if you have specific arguments:
-    # python Lunar_Lander.py --mode test --load_model_path lunar_lander_dqn.pth
-    ```
-    *(Ensure `lunar_lander_dqn.pth` or your model's filename is correct)*
 
 ## 📊 Results & Performance
 
