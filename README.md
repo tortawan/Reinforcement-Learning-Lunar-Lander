@@ -62,16 +62,22 @@ The Deep Q-Network (DQN) algorithm is a cornerstone of modern reinforcement lear
 
 
 * **Training Environment:** `LunarLander-v3`
-* **Target Score for Solving:** The environment is typically considered solved if the agent achieves an average reward of `[e.g., +200]` over 100 consecutive episodes.
+* **Target Score for Solving:** The environment is considered solved if the agent achieves an **average evaluation score greater than 200** over a set number of consecutive evaluation episodes.
 * **Performance Achieved:**
     * The agent was trained for `[Number, e.g., 1500]` episodes.
     * It achieved an average reward of `[Your Average Reward, e.g., +230]` over the last 100 evaluation episodes.
-    * The environment was successfully solved after approximately `[Number, e.g., 1200]` training episodes.
+    * The environment was successfully solved (average evaluation score > 200) after approximately `[Number, e.g., 1200]` training episodes.
 * **Best Score in a Single Episode:** `[Your Best Score]`
 * **Training Duration:** Approximately `[Time, e.g., 2 hours on CPU/GPU specs]`
-
+* **Key Hyperparameters Used:**
+    * Learning Rate (`LR`): `[e.g., 5e-4]`
+    * Batch Size: `[e.g., 64]`
+    * Replay Buffer Size: `[e.g., 1e5]`
+    * Discount Factor ($\gamma$): `[e.g., 0.99]`
+    * Target Network Update Frequency (`TAU` or `UPDATE_EVERY`): `[e.g., 1e-3 or 4 episodes]`
+    * Epsilon Decay Rate: `[e.g., 0.995]`
 * **Training Progress Plot:**
-    
+    *(You can embed the training plot image here if you like, or link to it)*
     `![Training Progress](path_to_your_training_plot.png)`
 
 ## 🔮 Future Improvements & Ideas
