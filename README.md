@@ -1,7 +1,7 @@
 # DQN Agent for LunarLander-v3 using PyTorch
 
 ![](/images/LunarLander.gif)
-*(Ensure this path to your GIF is correct in your repository structure)*
+
 
 This project implements a Deep Q-Network (DQN) agent to solve the `LunarLander-v3` environment from the [Gymnasium](https://gymnasium.farama.org/) library. The agent is built using PyTorch and aims to learn an optimal policy for landing the lunar module safely.
 
